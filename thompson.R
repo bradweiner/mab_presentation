@@ -65,7 +65,7 @@ saveHTML({
     plot_lines(td,i+1)
     ani.pause()
   }
-}, htmlfile = "index_thompson.html", img.name = "ts", navigator = FALSE, imgdir = "ts",
+}, htmlfile = "index.html", img.name = "ts", navigator = FALSE, imgdir = "ts",
 autoplay = FALSE, single.opts = "'theme': 'light', 'utf8': false,'controls':
                               ['first', 'previous', 'play', 'next', 'last', 'loop','speed']")
 message("Completed animation")
